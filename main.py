@@ -75,5 +75,45 @@ del lunch[wednesday_lunch]
 del dinner[wednesday_dinner]
 print(breakfast, lunch, dinner)
 
+thursday_breakfast = random.choice(list(breakfast.keys()))
+thursday_lunch = random.choice(list(lunch.keys()))
+thursday_dinner = random.choice(list(dinner.keys()))
+print(thursday_breakfast, thursday_lunch, thursday_dinner)
+
+del breakfast[thursday_breakfast]
+del lunch[thursday_lunch]
+del dinner[thursday_dinner]
+print(breakfast, lunch, dinner)
+
+friday_breakfast = random.choice(list(breakfast.keys()))
+friday_lunch = random.choice(list(lunch.keys()))
+friday_dinner = random.choice(list(dinner.keys()))
+print(friday_breakfast, friday_lunch, friday_dinner)
+
+del breakfast[friday_breakfast]
+del lunch[friday_lunch]
+del dinner[friday_dinner]
+print(breakfast, lunch, dinner)
+
+saturday_breakfast = random.choice(list(breakfast.keys()))
+saturday_lunch = random.choice(list(lunch.keys()))
+saturday_dinner = random.choice(list(dinner.keys()))
+print(saturday_breakfast, saturday_lunch, saturday_dinner)
+
+del breakfast[saturday_breakfast]
+del lunch[saturday_lunch]
+del dinner[saturday_dinner]
+print(breakfast, lunch, dinner)
+
+sunday_breakfast = random.choice(list(breakfast.keys()))
+sunday_lunch = random.choice(list(lunch.keys()))
+sunday_dinner = random.choice(list(dinner.keys()))
+print(sunday_breakfast, sunday_lunch, sunday_dinner)
+
+del breakfast[sunday_breakfast]
+del lunch[sunday_lunch]
+del dinner[sunday_dinner]
+print(breakfast, lunch, dinner)
+
 #test push
 #test push win
